@@ -11,7 +11,7 @@ namespace Levolution.Clock
 
         /// <summary>
         /// Default instance.
-        /// Uses <code>default(DateTime)</code> (January 1, 0001 00:00:00) as the start time.
+        /// Uses <c>default(DateTime)</c> (January 1, 0001 00:00:00) as the start time.
         /// </summary>
         public static readonly SystemClock Default = new(default);
 

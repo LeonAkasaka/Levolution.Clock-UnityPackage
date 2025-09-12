@@ -17,7 +17,7 @@ Add the following to your `manifest.json` in the `Packages` folder:
 ```json
 {
   "dependencies": {
-    "levolution.clock": "https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage.git"
+    "levolution.clock": "https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage.git#v0.1.0-preview"
   }
 }
 ```
@@ -25,6 +25,12 @@ Add the following to your `manifest.json` in the `Packages` folder:
 ### Git URL
 
 In Unity Package Manager, click "Add package from git URL" and enter:
+
+``` text
+https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage.git#v0.1.0-preview
+```
+
+### Alternative: Latest version (without specific tag)
 
 ``` text
 https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage.git

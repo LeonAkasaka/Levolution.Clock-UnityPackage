@@ -1,0 +1,17 @@
+{
+    "name": "levolution.clock",
+    "displayName": "Levolution Clock",
+    "version": "0.1.0-preview",
+    "description": "Time provider abstraction library that allows switching between different time sources through a unified IClock interface. Tested on Unity 6+, probably works on earlier versions.",
+    "unity": "2020.3",
+    "author": {
+        "name": "Leon Akasaka",
+        "url": "https://github.com/LeonAkasaka"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage.git"
+    },
+    "keywords": ["time", "provider", "clock"],
+    "license": "MIT"
+}

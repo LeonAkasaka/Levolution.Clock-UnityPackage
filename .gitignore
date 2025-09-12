@@ -1,0 +1,21 @@
+# Unity generated files
+*.tmp
+*.temp
+.DS_Store
+
+# Visual Studio / MonoDevelop generated
+ExportedObj/
+.vs/
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini

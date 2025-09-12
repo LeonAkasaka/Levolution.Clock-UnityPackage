@@ -7,9 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.0-preview] - 2025-09-12
+## [0.1.1-preview] - 2025-09-13
 
 ### Added
+
+- Unity meta files for documentation and license files
+- Version tag support for Unity Package Manager installation
+
+### Fixed
+
+- Unity Package Manager preview version compatibility
+- Installation URLs now include version tags for better version control
+
+## [0.1.0-preview] - 2025-09-12
+
+### Added (Initial Release)
 
 - Initial release of Levolution Clock package
 - `IClock` interface for time provider abstraction
@@ -29,5 +41,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Assembly definition file for proper dependency management
 - Namespace: `Levolution.Clock`
 
-[Unreleased]: https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage/compare/v0.1.0-preview...HEAD
+[Unreleased]: https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage/compare/v0.1.1-preview...HEAD
+[0.1.1-preview]: https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage/compare/v0.1.0-preview...v0.1.1-preview
 [0.1.0-preview]: https://github.com/LeonAkasaka/Levolution.Clock-UnityPackage/releases/tag/v0.1.0-preview

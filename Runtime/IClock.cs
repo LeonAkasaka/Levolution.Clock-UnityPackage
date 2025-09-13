@@ -26,4 +26,33 @@ namespace Levolution.Clock
         /// </value>
         public static SystemClock System => SystemClock.Default;
     }
+
+    /// <summary>
+    /// Internal clock implementation that scales time from another clock.
+    /// </summary>
+    internal class ScaledClock : IClock
+    {
+        private readonly IClock _baseClock;
+        private readonly float _scale;
+
+        /// <summary>
+        /// Initializes a new instance of ScaledClock.
+        /// </summary>
+        /// <param name="baseClock">The base clock to scale.</param>
+        /// <param name="scale">The scale factor.</param>
+        public ScaledClock(IClock baseClock, float scale)
+        {
+            _baseClock = baseClock;
+            _scale = scale;
+        }
+
+        /// <summary>
+        /// Gets the scaled time from the base clock.
+        /// </summary>
+        /// <returns>Scaled elapsed time in seconds.</returns>
+        public float GetTime()
+        {
+            return _baseClock.GetTime() * _scale;
+        }
+    }
 }
